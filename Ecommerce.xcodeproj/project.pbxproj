@@ -16,6 +16,9 @@
 		5A9492D327358601006610AC /* CategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9492D227358601006610AC /* CategoryCollectionViewController.swift */; };
 		5A9492D5273586C1006610AC /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9492D4273586C1006610AC /* CategoryCollectionViewCell.swift */; };
 		5A9492D727358FC5006610AC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A9492D627358FC5006610AC /* GoogleService-Info.plist */; };
+		5AD8251C2736E2BC00EE86D7 /* FirebaseCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8251B2736E2BC00EE86D7 /* FirebaseCollectionReference.swift */; };
+		5AD825212736E46C00EE86D7 /* Categoty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD825202736E46C00EE86D7 /* Categoty.swift */; };
+		5AD825242736E63900EE86D7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD825232736E63900EE86D7 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		5A9492D227358601006610AC /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
 		5A9492D4273586C1006610AC /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		5A9492D627358FC5006610AC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5AD8251B2736E2BC00EE86D7 /* FirebaseCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCollectionReference.swift; sourceTree = "<group>"; };
+		5AD825202736E46C00EE86D7 /* Categoty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categoty.swift; sourceTree = "<group>"; };
+		5AD825232736E63900EE86D7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E6F061C43A1D44442BAE1A58 /* Pods_Ecommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,8 +83,10 @@
 			children = (
 				5A895238273573E500D77ED4 /* AppDelegate.swift */,
 				5A89523A273573E500D77ED4 /* SceneDelegate.swift */,
-				5A9492D227358601006610AC /* CategoryCollectionViewController.swift */,
-				5A9492D4273586C1006610AC /* CategoryCollectionViewCell.swift */,
+				5AD8251E2736E42F00EE86D7 /* Main Views */,
+				5AD8251F2736E43C00EE86D7 /* Custom Cells */,
+				5AD825222736E47200EE86D7 /* Model */,
+				5AD8251D2736E41700EE86D7 /* Helpers */,
 				5A89523E273573E500D77ED4 /* Main.storyboard */,
 				5A895241273573E500D77ED4 /* Assets.xcassets */,
 				5A895243273573E500D77ED4 /* LaunchScreen.storyboard */,
@@ -86,6 +94,39 @@
 				5A9492D627358FC5006610AC /* GoogleService-Info.plist */,
 			);
 			path = Ecommerce;
+			sourceTree = "<group>";
+		};
+		5AD8251D2736E41700EE86D7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5AD8251B2736E2BC00EE86D7 /* FirebaseCollectionReference.swift */,
+				5AD825232736E63900EE86D7 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5AD8251E2736E42F00EE86D7 /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A9492D227358601006610AC /* CategoryCollectionViewController.swift */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		5AD8251F2736E43C00EE86D7 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5A9492D4273586C1006610AC /* CategoryCollectionViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		5AD825222736E47200EE86D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5AD825202736E46C00EE86D7 /* Categoty.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		F1B11A99B93D8D2B9164A0C2 /* Pods */ = {
@@ -215,6 +256,9 @@
 			files = (
 				5A9492D5273586C1006610AC /* CategoryCollectionViewCell.swift in Sources */,
 				5A895239273573E500D77ED4 /* AppDelegate.swift in Sources */,
+				5AD8251C2736E2BC00EE86D7 /* FirebaseCollectionReference.swift in Sources */,
+				5AD825212736E46C00EE86D7 /* Categoty.swift in Sources */,
+				5AD825242736E63900EE86D7 /* Constants.swift in Sources */,
 				5A89523B273573E500D77ED4 /* SceneDelegate.swift in Sources */,
 				5A9492D327358601006610AC /* CategoryCollectionViewController.swift in Sources */,
 			);
